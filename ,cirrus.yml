@@ -1,0 +1,8 @@
+task:
+  name: "terminal plss"
+  only_if: $CIRRUS_REPO_OWNER == 'monu2k'
+  timeout_in: 4h
+  container:
+    image: anggit86/ubuntu:22.04
+    cpu: 8
+    memory: 32G
